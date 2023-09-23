@@ -24,15 +24,15 @@
  */
 
 #include <iostream>
-#include <extras_cpp/game/interface.hpp>
+#include <cbrn_solafact/game/interface.hpp>
 
 #include "../../test/vendor/catch.hpp"
 
-using namespace extras;
-using namespace extras::cpp;
+using namespace cbrn;
+using namespace cbrn::solafact;
 
 /**
- *    Mold<cpp::cpp::game::Interface> dock;
+ *    Mold<cpp::solafact::game::Interface> dock;
  *
  *    (aka. mold the cpp::ChessGame interface to this dock)
  *
@@ -46,8 +46,8 @@ using namespace extras::cpp;
  *
  */
 
-namespace extras {
-    namespace cpp {
+namespace cbrn {
+    namespace solafact {
         namespace game {
 
             void test(Interface& i) {

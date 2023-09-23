@@ -10,8 +10,8 @@
  *
  */
 
-#ifndef _EXTRAS_CPP_CHESSGAME_CLAZZ_HPP
-#define _EXTRAS_CPP_CHESSGAME_CLAZZ_HPP
+#ifndef _CBRN_SOLAFACT_CHESSGAME_CLAZZ_HPP
+#define _CBRN_SOLAFACT_CHESSGAME_CLAZZ_HPP
 
  /**
   * @brief The MIT License (MIT)
@@ -38,10 +38,10 @@
   */
 
 #include <iostream>
-#include <extras_cpp/game/interface.hpp>
+#include <cbrn_solafact/game/interface.hpp>
 
-namespace extras {
-    namespace cpp {
+namespace cbrn {
+    namespace solafact {
         namespace game
         {
 
@@ -87,4 +87,4 @@ namespace extras {
     } // end namespace 
 }
 
-#endif // _EXTRAS_CPP_CHESSGAME_CLAZZ_HPP
+#endif // _CBRN_SOLAFACT_CHESSGAME_CLAZZ_HPP

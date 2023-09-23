@@ -24,15 +24,15 @@
  */
 
 #include <iostream>
-#include <extras_cpp/game/clazz.hpp>
+#include <cbrn_solafact/game/clazz.hpp>
 
 #include "../../test/vendor/catch.hpp"
 
-using namespace extras;
-using namespace extras::cpp;
+using namespace cbrn;
+using namespace cbrn::solafact;
 
 /**
- *    Mold<cpp::cpp::game::Interface> dock;
+ *    Mold<cpp::solafact::game::Interface> dock;
  *
  *    (aka. mold the cpp::ChessGame interface to this dock)
  *
@@ -45,7 +45,7 @@ using namespace extras::cpp;
  *    the (perrier) extras framework
  *
  */
-SCENARIO("Dock cpp::game::Interface", "[cpp::game::Interface]") {
+SCENARIO("Dock solafact::game::Interface", "[solafact::game::Interface]") {
 
     /**
      *    Steps 1. Mold the Interface to a dock
@@ -54,13 +54,13 @@ SCENARIO("Dock cpp::game::Interface", "[cpp::game::Interface]") {
      *
      */
 
-    cpp::game::Instance dock(1, 2);
-    cpp::game::Interface& i = dock;
+    solafact::game::Instance dock(1, 2);
+    solafact::game::Interface& i = dock;
 
     test(i);
 
     REQUIRE_THROWS_AS(
-        cpp::game::Instance(0, 0), game::EndOfGameReachedException);
+        solafact::game::Instance(0, 0), game::EndOfGameReachedException);
 
     REQUIRE_THROWS_AS(
         game::EndOfGameReachedException::assertion(

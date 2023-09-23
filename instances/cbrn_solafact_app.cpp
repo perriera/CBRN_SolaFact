@@ -1,5 +1,5 @@
 /**
- * @file extras_cpp_app.cpp
+ * @file cbrn_solafact_app.cpp
  * @author your name (you@domain.com)
  * @brief
  * @version 0.1
@@ -10,10 +10,10 @@
  *
  */
 
-#include <extras_cpp/game/clazz.hpp>
+#include <cbrn_solafact/game/clazz.hpp>
 #include <iostream>
 
-using namespace extras::cpp;
+using namespace cbrn::solafact;
 
 int main(int, const char**) {
    try {
