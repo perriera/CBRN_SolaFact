@@ -5,8 +5,8 @@
 > and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).</br>
 > To add a tag to the git repository do:
 >
-> > git tag -a v0.1.0 -m "cbrn_solafact created using perriera/injections v1.0.12^"</br>
-> > git push origin v0.1.0
+> > git tag -a v0.2.0 -m "added Neils website files"</br>
+> > git push origin v0.2.0
 
 IMPORTANT:
 
@@ -32,14 +32,21 @@ Adding dock test cases </br>
 Adding unit test cases </br>
 Updated README.md accordingly</br>
 
+**added Neil's website files**: https://github.com/perriera/cbrn_solafact/compare/v0.1.0...v0.2.0
+**cbrn_solafact created from template**: https://github.com/perriera/cbrn_solafact/compare/v0.0.0...v0.1.0
+
 #### 0.2.0 (2023-MM-DD)
+
 ### Changed
+
 - cbrn_solafact created from template
 
 #### 0.1.0 (2021-09-03)
+
 ### Added
+
 - SHARED library support
-- (perriera) extras library support 
+- (perriera) extras library support
 - CPM.cmake support
   - [CPM.cmake](https://github.com/cpm-cmake/CPM.cmake/blob/master/LICENSE)
   - This allows us to include other Github packages with the ability
@@ -95,7 +102,6 @@ Updated README.md accordingly</br>
 - Conan package manager deprecated
 
 ### Note
+
 > The following will only show on PUBLIC repositories:
-[unreleased]: https://github.com/perriera/cbrn_solafact/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/perriera/cbrn_solafact/compare/v0.0.0...v0.1.0
-[0.0.0]: https://github.com/perriera/cbrn_solafact/tree/v0.0.0
+> [unreleased]: https://github.com/perriera/cbrn_solafact/compare/v0.1.0...HEAD > [0.1.0]: https://github.com/perriera/cbrn_solafact/compare/v0.0.0...v0.1.0 > [0.0.0]: https://github.com/perriera/cbrn_solafact/tree/v0.0.0
