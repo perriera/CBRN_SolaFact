@@ -5,8 +5,8 @@
 > and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).</br>
 > To add a tag to the git repository do:
 >
-> > git tag -a v0.2.1 -m "changed filename"</br>
-> > git push origin v0.2.1
+> > git tag -a v0.3.0 -m "updated content"</br>
+> > git push origin v0.3.0
 
 IMPORTANT:
 
@@ -32,6 +32,7 @@ Adding dock test cases </br>
 Adding unit test cases </br>
 Updated README.md accordingly</br>
 
+**updated content**: https://github.com/perriera/cbrn_solafact/compare/v0.2.1...v0.3.0
 **changed filename**: https://github.com/perriera/cbrn_solafact/compare/v0.2.0...v0.2.1
 **added Neil's website files**: https://github.com/perriera/cbrn_solafact/compare/v0.1.0...v0.2.0
 **cbrn_solafact created from template**: https://github.com/perriera/cbrn_solafact/compare/v0.0.0...v0.1.0
