@@ -32,6 +32,7 @@ Adding dock test cases </br>
 Adding unit test cases </br>
 Updated README.md accordingly</br>
 
+**updated content**: https://github.com/perriera/cbrn_solafact/compare/v0.4.2...v0.5.0
 **updated content**: https://github.com/perriera/cbrn_solafact/compare/v0.3.0...v0.4.2
 **updated content**: https://github.com/perriera/cbrn_solafact/compare/v0.2.1...v0.3.0
 **changed filename**: https://github.com/perriera/cbrn_solafact/compare/v0.2.0...v0.2.1
