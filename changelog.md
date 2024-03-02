@@ -5,8 +5,12 @@
 > and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).</br>
 > To add a tag to the git repository do:
 >
-> > git tag -a v0.4.2 -m "updated content"</br>
-> > git push origin v0.4.2
+
+```
+
+bin/tagit.sh v0.9.2  "added dist/cbrn.zip"
+
+```
 
 IMPORTANT:
 
